@@ -1,1 +1,1 @@
-# svelt_study
+# svelte_study
