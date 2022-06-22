@@ -4,11 +4,10 @@
 .DS_Store
 
 ### yarn ###
-# unused Zero-Install
+# used Zero-Install
 .yarn/*
 !.yarn/patches
 !.yarn/releases
 !.yarn/plugins
 !.yarn/sdks
 !.yarn/versions
-.pnp.*
