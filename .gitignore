@@ -6,8 +6,9 @@
 ### yarn ###
 # used Zero-Install
 .yarn/*
+!.yarn/cache
 !.yarn/patches
-!.yarn/releases
 !.yarn/plugins
+!.yarn/releases
 !.yarn/sdks
 !.yarn/versions
