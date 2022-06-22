@@ -16,6 +16,6 @@ yarn or npm install
 yarn dev or npm run dev
 ```
 
-## 링크
+## 
 
 https://white-blank.tistory.com/70?category=1029326
