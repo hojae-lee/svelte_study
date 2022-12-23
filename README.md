@@ -33,10 +33,10 @@ yarn dev
 - 더 작은 번들 (SPA 최적화)
 - 낮은 러닝 커브
 
-1. No Virtual DOM (react, vue 와 다르게 가상돔을 사용하지 않음.)
-2. No Diffing (가상돔을 사용하지 않기 때문에 diffing 을 하지 않음.)
-3. No Overhead (가상돔을 사용하지 않기 때문에 리소스를 아낄 수 있음.)
-4. 빠른 성능
+2. No Virtual DOM (react, vue 와 다르게 가상돔을 사용하지 않음.)
+- No Diffing (가상돔을 사용하지 않기 때문에 diffing 을 하지 않음.)
+- No Overhead (가상돔을 사용하지 않기 때문에 리소스를 아낄 수 있음.)
+- 빠른 성능
 
 Diffing - 기존에 Vue 에서는 데이터가 변경되면 현재 돔과 가상 돔의 차이점을 비교하는 것.
 
@@ -46,10 +46,10 @@ Overhead - 어떤 처리를 위해 들어가는 간접적인 시간이나 메모
 
 실제로 React 와 런타임에서 메모리 사용관련하여 테스트 하였는데 2~3배가 넘는 차이를 보여줌.
 
-1. Truly reactive
-2. Framework-less VanillaJS
-3. only use devDependencies
-4. 명시적 설계 (창의적 작업)
+3. Truly reactive
+- Framework-less VanillaJS
+- only use devDependencies
+- 명시적 설계 (창의적 작업)
 
 스벨트는 우리는 가상돔을 쓰지 않은 찐 반응형 이다라고 주장함.
 
