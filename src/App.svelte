@@ -1,10 +1,19 @@
 <script>
-	export let name;
+	import Something from "./Something.svelte";
+	import { lifecycle, delayRender } from './lifecycle'
+	let toggle = false
+	let done = delayRender()
+
+	lifecycle()
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	{#if $done}
+		<button type="button" on:click={() => {toggle = !toggle}}>Toggle</button>
+	{/if}
+	{#if toggle}
+		<Something />
+	{/if}
 </main>
 
 <style>
